@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95de4d0e-777a-40e9-808c-e995914ac157" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/crows.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/home.htm" />
-      <change type="MOVED" beforePath="C:\Users\John\Dropbox\JenniferT2\crow_page01.htm" afterPath="$PROJECT_DIR$/html/crow_page01.htm" />
+      <change type="DELETED" beforePath="C:\Users\John\Dropbox\JenniferT2\html\crow_page01.htm" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\John\Dropbox\JenniferT2\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\John\Dropbox\JenniferT2\js\bootstrap.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/crows.htm" afterPath="$PROJECT_DIR$/html/crows.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/home.htm" afterPath="$PROJECT_DIR$/html/home.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/crows/page01.htm" afterPath="$PROJECT_DIR$/html/crows/page01.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JenniferT2.iws" />
@@ -30,19 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.htm" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="83" selection-start="1107" selection-end="1677" vertical-scroll-proportion="-12.038462" vertical-offset="265" max-vertical-offset="1020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crows.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/crows.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1479">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -51,34 +46,16 @@
       <file leaf-file-name="home.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/home.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="3019" selection-end="3019" vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="1156">
+            <state line="9" column="12" selection-start="473" selection-end="473" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <file leaf-file-name="crows.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/crows.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="38556">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crow_page01.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/crow_page01.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="57" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1360">
+            <state line="3" column="32" selection-start="175" selection-end="175" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="2397">
               <folding />
             </state>
           </provider>
@@ -87,7 +64,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6211" column="18" selection-start="131534" selection-end="131534" vertical-scroll-proportion="0.0" vertical-offset="105374" max-vertical-offset="106046">
+            <state line="779" column="14" selection-start="11649" selection-end="11649" vertical-scroll-proportion="-8.04" vertical-offset="13042" max-vertical-offset="106131">
               <folding />
             </state>
           </provider>
@@ -96,27 +73,16 @@
       <file leaf-file-name="test.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="71" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.6923075" vertical-offset="13" max-vertical-offset="629">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="67" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.5072464" vertical-offset="263" max-vertical-offset="1003">
+            <state line="11" column="71" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+      <file leaf-file-name="page01.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/crows/page01.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="1" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1003">
+            <state line="9" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -140,14 +106,15 @@
         <option value="$PROJECT_DIR$/index4.htm" />
         <option value="$PROJECT_DIR$/index5.htm" />
         <option value="$PROJECT_DIR$/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/crow_page01.htm" />
         <option value="$PROJECT_DIR$/js/jsquery.min.js" />
         <option value="$PROJECT_DIR$/test.htm" />
-        <option value="$PROJECT_DIR$/html/home.htm" />
-        <option value="$PROJECT_DIR$/html/crows.htm" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/html/home.htm" />
+        <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/html/crows.htm" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/html/crows/page01.htm" />
       </list>
     </option>
   </component>
@@ -183,38 +150,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Default" />
-        <subPane subId="Problems" />
-        <subPane subId="Tests" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JenniferT2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JenniferT2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,12 +198,62 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Default" />
+        <subPane subId="Problems" />
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="crows">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python/gina-academic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bikeride" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -349,25 +334,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3171875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15859374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32768363" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -390,23 +375,65 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="38845">
+        <state line="53" column="1" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="28" column="32" selection-start="0" selection-end="2294" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/crow_page01.htm">
+    <entry file="file://$PROJECT_DIR$/html/crows.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1360">
+        <state line="26" column="17" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="65" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6211" column="18" selection-start="131534" selection-end="131534" vertical-scroll-proportion="0.0" vertical-offset="105374" max-vertical-offset="106046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="71" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="29" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/crows/page01.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="1" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
@@ -421,9 +448,7 @@
     <entry file="file://$PROJECT_DIR$/test.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="14" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="629">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -441,27 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="82" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="38845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/crow_page01.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="10" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="244" column="29" selection-start="3635" selection-end="3635" vertical-scroll-proportion="0.0" vertical-offset="3845" max-vertical-offset="106029">
@@ -472,9 +476,7 @@
     <entry file="file://$PROJECT_DIR$/test.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="10" selection-start="3417" selection-end="4754" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1802">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -492,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/crow_page01.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="10" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5316" column="39" selection-start="107891" selection-end="107891" vertical-scroll-proportion="0.0" vertical-offset="90052" max-vertical-offset="106029">
@@ -509,9 +504,7 @@
     <entry file="file://$PROJECT_DIR$/test.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="10" selection-start="3417" selection-end="4754" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1802">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -686,67 +679,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/crow_page01.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6211" column="18" selection-start="131534" selection-end="131534" vertical-scroll-proportion="0.0" vertical-offset="105374" max-vertical-offset="106046">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="71" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.6923075" vertical-offset="13" max-vertical-offset="629">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/crows.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/home.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3019" selection-end="3019" vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="38845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="83" selection-start="1107" selection-end="1677" vertical-scroll-proportion="-12.038462" vertical-offset="265" max-vertical-offset="1020">
+        <state line="11" column="71" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="67" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.5072464" vertical-offset="263" max-vertical-offset="1003">
+        <state line="65" column="29" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="473" selection-end="473" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="779" column="14" selection-start="11649" selection-end="11649" vertical-scroll-proportion="-8.04" vertical-offset="13042" max-vertical-offset="106131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/crows.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="175" selection-end="175" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/crows/page01.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
