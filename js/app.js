@@ -41,17 +41,26 @@ $(document).ready(function() {
         routes: {
             'home'          : 'renderHome',
             'crows'         : 'renderCrows',
-            'crow/:id'      : 'renderCrow' 
+            'crow/:id'      : 'renderCrow',
+            'painted'       : 'renderPainted',
+            'paint/:id'     : 'renderPaint'
         },
 
         renderHome: getRenderer('html/home.htm', $('.nav li#home')),
         renderCrows: getRenderer('html/crows.htm', $('.nav li#crows')),
+        renderPainted: getRenderer('html/painted.htm', $('.nav li#painted')),
 
         // crow renderers are cached so that they can be re-used
         crowRenderers: {},
         renderCrow: function(id) {
             if (!this.crowRenderers[id]) {
                 this.crowRenderers[id] = getRenderer('html/crows/page' + id + '.htm', $('.nav li#crows'));
+            }
+            this.crowRenderers[id]()
+        },
+        renderPaint: function(id) {
+            if (!this.crowRenderers[id]) {
+                this.crowRenderers[id] = getRenderer('html/painted/page' + id + '.htm', $('.nav li#painted'));
             }
             this.crowRenderers[id]()
         }
