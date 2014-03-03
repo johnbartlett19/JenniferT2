@@ -6244,3 +6244,7 @@ a.badge:focus {
     font-size: 36px;
     font-family: Papyrus, serif;
 }
+
+#subhead {
+    margin-top: -15px;
+}

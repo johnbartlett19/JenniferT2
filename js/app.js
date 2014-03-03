@@ -3,6 +3,7 @@ $(document).ready(function() {
     // select the main div and cache for easy access
     var main_content_div = $('div#main-content');
     var all_nav_list_items = $('.nav li');
+    console.log(all_nav_list_items);
 
     // this is a function that will add the "active" css class to the 
     // active controller.  this will allow the user to see the tab they are
@@ -12,7 +13,7 @@ $(document).ready(function() {
         activeControllers.addClass("active");
     };
 
-    // utilility function that retuns a function which is called to render
+    // utilility function that returns a function which is called to render
     // html to the main div area.  that html is lazy loaded and cached within
     // the "promise" object.  once the data has been loaded, calling .done(callback)
     // just immediately calls the callback on the cached result of the ajax call
@@ -31,6 +32,10 @@ $(document).ready(function() {
 
             // set page content when the page is loaded
             promise.done(function(data){ main_content_div.html(data); });
+
+            $(document).ready(function () {
+                $(this).scrollTop(0);
+            });
         };
     };
 
