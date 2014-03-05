@@ -46,9 +46,10 @@ $(document).ready(function() {
         routes: {
             'home'          : 'renderHome',
             'crows'         : 'renderCrows',
-            'crow/:id'      : 'renderCrow',
+            //'crow/:id'      : 'renderCrow',
             'painted'       : 'renderPainted',
-            'paint/:id'     : 'renderPaint'
+            'paint/:id': 'renderPaint',
+            'crows/:id': 'renderCrow'
         },
 
         renderHome: getRenderer('html/home.htm', $('.nav li#home')),
@@ -56,18 +57,23 @@ $(document).ready(function() {
         renderPainted: getRenderer('html/painted.htm', $('.nav li#painted')),
 
         // crow renderers are cached so that they can be re-used
-        crowRenderers: {},
-        renderCrow: function(id) {
+        /* crowRenderers: {},
+         renderCrow: function(id) {
             if (!this.crowRenderers[id]) {
                 this.crowRenderers[id] = getRenderer('html/crows/page' + id + '.htm', $('.nav li#crows'));
             }
             this.crowRenderers[id]()
-        },
+         }, */
         renderPaint: function(id) {
             if (!this.crowRenderers[id]) {
                 this.crowRenderers[id] = getRenderer('html/painted/page' + id + '.htm', $('.nav li#painted'));
             }
             this.crowRenderers[id]()
+        },
+
+        renderCrow: function (id) {
+            var crow_html = crow_template(crows[id]);
+            main_content_div.html(crow_html);
         }
     });
 
