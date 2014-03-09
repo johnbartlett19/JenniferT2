@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95de4d0e-777a-40e9-808c-e995914ac157" name="Default" comment="Attempting to build crow individual pages from a common template&#10;">
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\html\crow_list.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5180_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5185_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5187_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5194_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5198_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5204_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5211_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5216_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5226_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\IMG_5231_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\Img_5247_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\Img_5250_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\img\crow_banners\Img_5255_1.jpg" afterPath="" />
+    <list default="true" id="95de4d0e-777a-40e9-808c-e995914ac157" name="Default" comment="Crow pages working, included gw_quilts, individual gw_quilt pages working">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/gw_quilts.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/one_img.htm" />
+      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\html\crows\crow_one.htm" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jbartlett\Dropbox\JenniferT2\html\crows\page01.htm" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/crows/crow_one.htm" afterPath="$PROJECT_DIR$/html/crows/crow_one.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/crows.htm" afterPath="$PROJECT_DIR$/html/crows.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/home.htm" afterPath="$PROJECT_DIR$/html/home.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/onePage.js" afterPath="$PROJECT_DIR$/js/onePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.htm" afterPath="$PROJECT_DIR$/test.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JenniferT2.iws" />
@@ -48,7 +40,7 @@
       <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="2405" selection-end="2405" vertical-scroll-proportion="-34.0" vertical-offset="0" max-vertical-offset="1037">
+            <state line="23" column="34" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -57,7 +49,7 @@
       <file leaf-file-name="home.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/home.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="261" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1190">
+            <state line="16" column="25" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -66,7 +58,7 @@
       <file leaf-file-name="crows.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/crows.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="48" selection-start="1111" selection-end="1114" vertical-scroll-proportion="-5.745098" vertical-offset="149" max-vertical-offset="2414">
+            <state line="8" column="29" selection-start="298" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2414">
               <folding />
             </state>
           </provider>
@@ -75,7 +67,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="987" column="12" selection-start="14111" selection-end="14112" vertical-scroll-proportion="0.0" vertical-offset="16578" max-vertical-offset="106335">
+            <state line="6248" column="1" selection-start="132768" selection-end="132768" vertical-scroll-proportion="-11.56" vertical-offset="105927" max-vertical-offset="106658">
               <folding />
             </state>
           </provider>
@@ -84,7 +76,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12" selection-start="1344" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1632">
+            <state line="51" column="23" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
@@ -93,16 +85,25 @@
       <file leaf-file-name="onePage.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/onePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.47424892" vertical-offset="0" max-vertical-offset="932">
+            <state line="25" column="18" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.85685486" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crow_one.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/crows/crow_one.htm">
+      <file leaf-file-name="gw_quilts.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/gw_quilts.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+            <state line="52" column="17" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1768">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one_img.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/one_img.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="30" selection-start="399" selection-end="399" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -111,7 +112,16 @@
       <file leaf-file-name="test.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+            <state line="43" column="7" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -143,23 +153,26 @@
         <option value="$PROJECT_DIR$/crow_page01.htm" />
         <option value="$PROJECT_DIR$/js/jsquery.min.js" />
         <option value="$PROJECT_DIR$/html/crows/page01.htm" />
-        <option value="$PROJECT_DIR$/html/home.htm" />
         <option value="$PROJECT_DIR$/html/painted.htm" />
         <option value="$PROJECT_DIR$/test.htm" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/test2.htm" />
         <option value="$PROJECT_DIR$/html/crows.htm" />
+        <option value="$PROJECT_DIR$/html/crows/crow_one.htm" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.htm" />
-        <option value="$PROJECT_DIR$/html/crows/crow_one.htm" />
+        <option value="$PROJECT_DIR$/html/home.htm" />
+        <option value="$PROJECT_DIR$/html/gw_quilts.htm" />
         <option value="$PROJECT_DIR$/js/onePage.js" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/html/one_img.htm" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -187,6 +200,66 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default" />
+        <subPane subId="Problems" />
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JenniferT2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,70 +308,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Default" />
-        <subPane subId="Problems" />
-        <subPane subId="Tests" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JenniferT2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JenniferT2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JenniferT2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JenniferT2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="crows">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,21 +327,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jbartlett\Dropbox\JenniferT2\html" />
       <recent name="C:\Users\John\Dropbox\JenniferT2\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jbartlett\Dropbox\JenniferT2\html" />
       <recent name="C:\Users\John\Dropbox\JenniferT2\html" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.htm">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -343,15 +346,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -406,30 +417,34 @@
       <created>1393811453093</created>
       <updated>1393811453093</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Single page crow images working correctly, no sub-nav yet.">
+      <created>1393985533829</created>
+      <updated>1393985533829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904884" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3171875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3171875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24425887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974293" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3263473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32390746" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -450,18 +465,20 @@
     <MESSAGE value="Updated one crow page formatting and added banner on crow index page" />
     <MESSAGE value="Added painted page, changes to app.js to accomodate" />
     <MESSAGE value="Attempting to build crow individual pages from a common template&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempting to build crow individual pages from a common template&#10;" />
+    <MESSAGE value="Single page crow images working correctly, no sub-nav yet." />
+    <MESSAGE value="Crow pages working, included gw_quilts, individual gw_quilt pages working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crow pages working, included gw_quilts, individual gw_quilt pages working" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/test2.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="1344" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1632">
+        <state line="27" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
@@ -473,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/crows/crow_one.htm">
+    <entry file="file://$PROJECT_DIR$/html/one_img.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <folding />
@@ -504,13 +521,6 @@
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="29" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/crows/page01.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -727,69 +737,91 @@
         <state line="53" column="1" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1003" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="987" column="12" selection-start="14111" selection-end="14112" vertical-scroll-proportion="0.0" vertical-offset="16578" max-vertical-offset="106335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/crows/page01.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="0" selection-end="491" vertical-scroll-proportion="0.11038961" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="986">
+        <state line="43" column="7" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/home.htm">
+    <entry file="file://$PROJECT_DIR$/test2.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="261" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="1344" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/crows/crow_one.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2405" selection-end="2405" vertical-scroll-proportion="-34.0" vertical-offset="0" max-vertical-offset="1037">
+        <state line="27" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/crows.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="1111" selection-end="1114" vertical-scroll-proportion="-5.745098" vertical-offset="149" max-vertical-offset="2414">
+        <state line="8" column="29" selection-start="298" selection-end="309" vertical-scroll-proportion="-0.0" vertical-offset="136" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="23" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/gw_quilts.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="17" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6248" column="1" selection-start="132768" selection-end="132768" vertical-scroll-proportion="-11.56" vertical-offset="105927" max-vertical-offset="106658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/one_img.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="399" selection-end="399" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/onePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.47424892" vertical-offset="0" max-vertical-offset="932">
+        <state line="25" column="18" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.85685486" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

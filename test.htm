@@ -1,52 +1,44 @@
-yeah you can.  Here is what I would do
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=”utf-8”>
+    <title>Jennifer Beaven</title>
+    <link rel="stylesheet" type="text/css" href='css/bootstrap.css'/>
+    <!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/> -->
+    <meta name="Description" content="Contemporary mixed media and fiber art.">
+    <link rel="shortcut icon" href='img/crow.ico'>
+    <meta name="KeyWords" content="Mixed Media Artist, Brunswick, Maine, Jennifer Beaven, Beaven, art, fiber art,
+             frame drum, collage, textile art, fabric painting, hand stamping, monoprinting">
+    <meta name="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="Description" content="Jennifer Beaven - Fiber Artist">
+    <meta name="Author" content="John Bartlett">
+</head>
+<body>
 
-Write some javascript as
-
-var Crow = function(img, text) {
-this.img = img;
-this.text = text;
-return this
-}
-
-js objects are sucky.  you can see that here a js object is really just a function (read constructor) that gets evaluated with a special "this" object in its scope.  you can set values on the this object in the function.  When you write "new Crow" you are getting the "this" reference that was just passed to a call to the constructor.
-
-var crows = [
-new Crow("img0", "text0"),
-new Crow("img1", "text1"),
-new Crow("img2", "text2"),
-new Crow("img3", "text3")
-...
-]
-
-Arrays are indexed at 0, not 1, so your indices should start at 0
-
-Then, there will only be one crow partial which will look like
-
-<div id="crow-template">
-    <header>Some header text</header>
-    <img src="<%=img%>"></img>
-
-    <p><%=text%></p>
+<div class="container span12">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                Logo Here
+                <ul class="nav">
+                    <li> One</li>
+                    <li> Two</li>
+                </ul>
+                <ul class="nav">
+                    <li> Three</li>
+                    <li> Four</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
+</body>
 
-or something like that.  the point is it is regular html, except you have <%= attribute %> for things that are attributes on the Crow object (as defined above).  Then, when you use ajax to fetch that template, you should use the _.template function.  You can look it up on the underscore doc page, but basically you will do var pattern = _.template(data); on whatever data you get back when you load this template page.  Then, pattern is a function that gets applied to objects. In a sense _.template compiles a template for your which you then apply. It takes out the attributes from the object and puts it into the template.  So pattern(crows[0]) will give you the right html for the crow page0.  Then you just need to do main_body_div.html(pattern(crows[0])) or whatever to get it to display in the DOM.
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src='http://cdn.jsdelivr.net/bootstrap/3.1.0/js/bootstrap.min.js'></script>
+<script src='http://cdn.jsdelivr.net/underscorejs/1.5.2/underscore-min.js'></script>
+<script src="http://documentcloud.github.com/backbone/backbone-min.js"></script>
+<script src="js/onePage.js"></script>
+<script src="js/app.js"></script>
 
-Hope that helps, let me know if you need more help.  For sanity I would define the Crow object and the crows list in a different js file and then list that js file before app.js so that you can access it, but then you won't need to have it clutter up the logic you have in app.js.  If you start to have so much code that it is polluting the global namespace we can also talk about solutions for that.
-
-N
-
-
-On Sat, Feb 15, 2014 at 5:21 PM, John Bartlett
-<johnbartlett19@gmail.com> wrote:
-Hi Nick,
-
-Can I build a table in Java and then stick the right table entry into the HTML?
-
-Here is what I am thinking.  I created the attached file for the crow pages on Jen’s site.  These fields are different for each crow page but the whole structure is the same.  Wondering if I can build one page and then insert the right text or image based on the index number?
-
-LD
-
-
---
-CAMPELIA Nick
-207.233.7017
+</html>

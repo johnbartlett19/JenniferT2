@@ -13,7 +13,7 @@ $(document).ready(function() {
         activeControllers.addClass("active");
     };
 
-    // utilility function that returns a function which is called to render
+    // utility function that returns a function which is called to render
     // html to the main div area.  that html is lazy loaded and cached within
     // the "promise" object.  once the data has been loaded, calling .done(callback)
     // just immediately calls the callback on the cached result of the ajax call
@@ -46,15 +46,17 @@ $(document).ready(function() {
         routes: {
             'home'          : 'renderHome',
             'crows'         : 'renderCrows',
-            //'crow/:id'      : 'renderCrow',
+            'crows/:id': 'renderCrow',
             'painted'       : 'renderPainted',
             'paint/:id': 'renderPaint',
-            'crows/:id': 'renderCrow'
+            'gw_quilts': 'renderGWquilts',
+            'gw_quilt/:id': 'renderGWquilt'
         },
 
         renderHome: getRenderer('html/home.htm', $('.nav li#home')),
         renderCrows: getRenderer('html/crows.htm', $('.nav li#crows')),
         renderPainted: getRenderer('html/painted.htm', $('.nav li#painted')),
+        renderGWquilts: getRenderer('html/gw_quilts.htm', $('.nav li#gw_quilts')),
 
         // crow renderers are cached so that they can be re-used
         /* crowRenderers: {},
@@ -73,6 +75,11 @@ $(document).ready(function() {
 
         renderCrow: function (id) {
             var crow_html = crow_template(crows[id]);
+            main_content_div.html(crow_html);
+        },
+
+        renderGWquilt: function (id) {
+            var crow_html = crow_template(gw_quilts[id]);
             main_content_div.html(crow_html);
         }
     });
