@@ -3,7 +3,6 @@ $(document).ready(function() {
     // select the main div and cache for easy access
     var main_content_div = $('div#main-content');
     var all_nav_list_items = $('.nav li');
-    console.log(all_nav_list_items);
 
     // this is a function that will add the "active" css class to the 
     // active controller.  this will allow the user to see the tab they are
@@ -46,7 +45,7 @@ $(document).ready(function() {
         routes: {
             'home'          : 'renderHome',
             'crows'         : 'renderCrows',
-            'crows/:id': 'renderCrow',
+            "crow/:id": 'renderCrow',
             'painted'       : 'renderPainted',
             'paint/:id': 'renderPaint',
             'gw_quilts': 'renderGWquilts',
