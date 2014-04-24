@@ -354,32 +354,40 @@ a:focus {
 .span1 {
     width: 60px;
 }
+
 .pic_space {
     width: 28px;
     background-color: red;
     content: '';
 }
+
 .pic_holder {
     width: 200px;
 }
-.thumb-table  {
+
+.thumb-table {
     width: 940px;
     border-collapse: collapse;
 }
+
 .thumb-table tr td {
     height: 5px;
 }
+
 .thumb-table-row {
     padding-bottom: 1em;
 }
-.thumb-one-label{
+
+.thumb-one-label {
     text-align: center;
     font-family: serif;
 }
+
 .thumb-one {
     text-align: center;
     margin: auto;
 }
+
 .thumbs {
     text-align: center;
     padding-bottom: 5px;
@@ -807,7 +815,9 @@ h6 small {
     color: #999999;
 }
 
-h1 {line-height: 40px}
+h1 {
+    line-height: 40px
+}
 
 h2,
 h3 {
@@ -6209,6 +6219,7 @@ a.badge:focus {
     margin-top: -5px;
     margin-bottom: 0px;
 }
+
 .the_art h2 {
     font-size: 18px;
     line-height: 1.5;
@@ -6252,7 +6263,15 @@ a.badge:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#crow-template img {
     border: 4px solid red;
+}
+
+#gwquilt-template img {
+    border: 4px solid #746663;
 }
 
 #top-name {

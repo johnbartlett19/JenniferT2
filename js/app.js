@@ -46,16 +46,19 @@ $(document).ready(function() {
             'home'          : 'renderHome',
             'crows'         : 'renderCrows',
             "crow/:id": 'renderCrow',
-            'painted'       : 'renderPainted',
-            'paint/:id': 'renderPaint',
+            'postage': 'renderPostage',
+            'postage/:id': 'renderPost',
+            'collage': 'renderCollage',
+            'collage/:id': 'renderColl',
             'gw_quilts': 'renderGWquilts',
             'gw_quilt/:id': 'renderGWquilt'
         },
 
         renderHome: getRenderer('html/home.htm', $('.nav li#home')),
         renderCrows: getRenderer('html/crows.htm', $('.nav li#crows')),
-        renderPainted: getRenderer('html/painted.htm', $('.nav li#painted')),
         renderGWquilts: getRenderer('html/gw_quilts.htm', $('.nav li#gw_quilts')),
+        renderPostage: getRenderer('html/postage.htm', $('.nav li#postage')),
+        renderCollage: getRenderer('html/collage.htm', $('.nav li#collage')),
 
         // crow renderers are cached so that they can be re-used
         /* crowRenderers: {},
@@ -65,12 +68,6 @@ $(document).ready(function() {
             }
             this.crowRenderers[id]()
          }, */
-        renderPaint: function(id) {
-            if (!this.crowRenderers[id]) {
-                this.crowRenderers[id] = getRenderer('html/painted/page' + id + '.htm', $('.nav li#painted'));
-            }
-            this.crowRenderers[id]()
-        },
 
         renderCrow: function (id) {
             var crow_html = crow_template(crows[id]);
@@ -78,9 +75,20 @@ $(document).ready(function() {
         },
 
         renderGWquilt: function (id) {
-            var crow_html = crow_template(gw_quilts[id]);
-            main_content_div.html(crow_html);
+            var gwquilt_html = gwquilt_template(gw_quilts[id]);
+            main_content_div.html(gwquilt_html);
+        },
+
+        renderPost: function (id) {
+            var postage_html = crow_template(post[id]);
+            main_content_div.html(postage_html);
+        },
+
+        renderColl: function (id) {
+            var collage_html = crow_template(collage[id]);
+            main_content_div.html(collage_html);
         }
+
     });
 
     var router = new JenniferT2router();

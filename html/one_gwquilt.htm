@@ -1,0 +1,45 @@
+<div id='gwquilt-template'>
+    <div class="row">
+        <div class="span7">
+            <div class="single">
+                <img src="<%=img%>">
+            </div>
+        </div>
+        <div class="span1">
+        </div>
+        <div class="span4">
+            <h4 class="muted text-left" style="font-family:Georgia serif"><%=name%></h4>
+
+            <p><%=madeOf%></p>
+
+            <p><%=size%></p>
+
+            <p><%=year%></p>
+
+            <p><%=status%></p>
+            <nav class="navbar float-down">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <ul class="nav">
+                            <li><a href="<%=group%>/<%=prev%>">Prev</a></li>
+                        </ul>
+                        <ul class="nav pull-right">
+                            <li><a href="<%=group%>/<%=next%>">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="span7">
+            <div class="single">
+                <img src="<%=detail%>">
+            </div>
+        </div>
+        <div class="span1"></div>
+        <div class="span4 text-left">
+            <h4 class="muted text-left" style="font-family:Georgia serif">Detail</h4>
+        </div>
+    </div>
+</div>
+
