@@ -28,18 +28,18 @@ var Crow = function (group, index, length, img, name, madeOf, size, year, status
 }
 
 var crows = [
-    new Crow('#crow', 0, 13, crow_images[0], "Crow and the Thirteen Moons", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 1, 13, crow_images[1], "Crow Carries the Sun", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 2, 13, crow_images[2], "Crow Carries the Waterlily", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 3, 13, crow_images[3], "Crow Moon Rising", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 4, 13, crow_images[4], "Which Way Crow?", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 5, 13, crow_images[5], "Crow Casts a Glance", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 6, 13, crow_images[6], "Crazy Old Crow", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 7, 13, crow_images[7], "Crow in the Clouds", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 8, 13, crow_images[8], "Crow Greets the Saffron Goddess", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 9, 13, crow_images[9], "Crow Calls the Directions", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 10, 13, crow_images[10], "Counting Crows", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
-    new Crow('#crow', 11, 13, crow_images[11], "Crow and the Bone of Contention", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale")
+    new Crow('#crow', 0, 12, crow_images[0], "Crow and the Thirteen Moons", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 1, 12, crow_images[1], "Crow Carries the Sun", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 2, 12, crow_images[2], "Crow Carries the Waterlily", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 3, 12, crow_images[3], "Crow Moon Rising", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 4, 12, crow_images[4], "Which Way Crow?", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 5, 12, crow_images[5], "Crow Casts a Glance", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 6, 12, crow_images[6], "Crazy Old Crow", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 7, 12, crow_images[7], "Crow in the Clouds", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 8, 12, crow_images[8], "Crow Greets the Saffron Goddess", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 9, 12, crow_images[9], "Crow Calls the Directions", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 10, 12, crow_images[10], "Counting Crows", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale"),
+    new Crow('#crow', 11, 12, crow_images[11], "Crow and the Bone of Contention", "Mixed Media", '26" w x 35" h x 2" d', '2006', "For Sale")
 ];
 
 var crow_template;
@@ -134,6 +134,44 @@ var collage = [
     new Crow('#collage', 10, 13, collage_images[10], "Red Sky Drummer Bear", "Mixed Media", '8.5" w x 11" h', '2013', ""),
     new Crow('#collage', 11, 13, collage_images[11], "River Rabbit", "Mixed Media", '8.5" w x 11" h', '2013', ""),
     new Crow('#collage', 12, 13, collage_images[12], "Within Without", "Mixed Media", '8.5" w x 11" h', '2013', "")
+];
+
+var permie_images = [
+    "img/collage/PerennialRhubarb.jpg"
+];
+
+var permie = [
+    new Crow('#permie', 0, 1, permie_images[0], 'Perennial Rhubarb', 'Mixed Media', '8.5" w x 11" h', '2013', "")
+];
+
+var ptquilt_images = [
+    "img/pt_quilts/Img_1842_2.jpg",
+    "img/pt_quilts/Img_4139.jpg",
+    "img/pt_quilts/Img_4174_2.jpg",
+    "img/pt_quilts/Img_4312.jpg",
+    "img/pt_quilts/Img_4318.jpg",
+    "img/pt_quilts/Img_4336_2.jpg",
+    "img/pt_quilts/Img_4339_2.jpg",
+    "img/pt_quilts/Img_5899.jpg",
+    "img/pt_quilts/Img_5922.jpg",
+    "img/pt_quilts/Img_5970_1.jpg",
+    "img/pt_quilts/Img_6616.jpg",
+    "img/pt_quilts/J_Quilt_3_2.jpg"
+];
+
+var ptquilts = [
+    new Crow('#ptquilt', 0, 12, ptquilt_images[0], "Name 01", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 1, 12, ptquilt_images[1], "Name 02", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 2, 12, ptquilt_images[2], "Name 03", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 3, 12, ptquilt_images[3], "Name 04", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 4, 12, ptquilt_images[4], "Name 05", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 5, 12, ptquilt_images[5], "Name 06", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 6, 12, ptquilt_images[6], "Name 07", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 7, 12, ptquilt_images[7], "Name 08", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 8, 12, ptquilt_images[8], "Name 09", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 9, 12, ptquilt_images[9], "Name 10", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 10, 12, ptquilt_images[10], "Name 11", "Mixed Media", 'some" w x other" h', 'Year Made', ""),
+    new Crow('#ptquilt', 11, 12, ptquilt_images[11], "Name 12", "Mixed Media", 'some" w x other" h', 'Year Made', "")
 ];
 
 function preloader(images, index) {

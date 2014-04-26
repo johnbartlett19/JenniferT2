@@ -733,7 +733,7 @@ cite {
 }
 
 .muted {
-    color: #999999;
+    color: #888888;
 }
 
 a.muted:hover,
@@ -838,6 +838,7 @@ h3 {
 
 h4 {
     font-size: 17.5px;
+    font-family: Georgia serif;
 }
 
 h5 {

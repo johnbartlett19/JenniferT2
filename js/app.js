@@ -43,15 +43,19 @@ $(document).ready(function() {
         // you can see that the crow route takes an id so that 
         // we can use the same renderer for each crow
         routes: {
-            'home'          : 'renderHome',
-            'crows'         : 'renderCrows',
+            'home': 'renderHome',
+            'crows': 'renderCrows',
             "crow/:id": 'renderCrow',
             'postage': 'renderPostage',
             'postage/:id': 'renderPost',
             'collage': 'renderCollage',
             'collage/:id': 'renderColl',
             'gw_quilts': 'renderGWquilts',
-            'gw_quilt/:id': 'renderGWquilt'
+            'gw_quilt/:id': 'renderGWquilt',
+            'permie': 'renderPermaculture',
+            'permie/:id': 'renderPermie',
+            'ptquilts': 'renderPtQuilts',
+            'ptquilt/:id': 'renderPtQuilt'
         },
 
         renderHome: getRenderer('html/home.htm', $('.nav li#home')),
@@ -59,6 +63,8 @@ $(document).ready(function() {
         renderGWquilts: getRenderer('html/gw_quilts.htm', $('.nav li#gw_quilts')),
         renderPostage: getRenderer('html/postage.htm', $('.nav li#postage')),
         renderCollage: getRenderer('html/collage.htm', $('.nav li#collage')),
+        renderPermaculture: getRenderer('html/permie.htm', $('.nav li#permie')),
+        renderPtQuilts: getRenderer('html/pt_quilts.htm', $('.nav li#ptquilts')),
 
         // crow renderers are cached so that they can be re-used
         /* crowRenderers: {},
@@ -87,6 +93,16 @@ $(document).ready(function() {
         renderColl: function (id) {
             var collage_html = crow_template(collage[id]);
             main_content_div.html(collage_html);
+        },
+
+        renderPermie: function (id) {
+            var permie_html = crow_template(permie[id]);
+            main_content_div.html(permie_html);
+        },
+
+        renderPtQuilt: function (id) {
+            var ptquilts_html = crow_template(ptquilts[id]);
+            main_content_div.html(ptquilts_html);
         }
 
     });
